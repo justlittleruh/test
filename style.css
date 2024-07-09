@@ -89,13 +89,13 @@ a:hover
 {
   float:right;
   position:relative;
-  right:103px;
+  right:53px;
 }
 .notwell
 {
   float:right;
   position:relative;
-  right: 60px;
+  right: 10px;
   top:50px;
 }
 .bad
@@ -111,7 +111,7 @@ a:hover
   border:3px solid #C2A375;
   border-radius:10px;
   position:relative;
-  left:50px;
+  left:60px;
 }
 .four
 {
