@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+
+
+}
+
+#searchbar 
+{
+    
+margin:10px;
+    padding:10px;
+    border-radius: 5px;
+    width: 50%;
+    box-sizing: border-box;
+background-color:burlywood;
+}
+
+#list 
+{
+  list-style:none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.characters 
+{
+    font-size: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.characters:last-child
+{
+    border-bottom: none;
+}
+
+@keyframes fadeIn 
+{
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+body
+{
+   background-color: #1E0C1B;
+}
+.element
+{
+  width:50px;
+height:50px;
+}
+.path
+{
+  width:35px;
+  height:35px;
+}
+a:link
+{
+   color:gold;
+}
+a:visited
+{
+  color:rgb(216, 89, 108);
+}
+a:hover
+{
+  color:rgb(255, 0, 0);
+}
+.well
+{
+  float:right;
+  position:relative;
+  right:53px;
+}
+.notwell
+{
+  float:right;
+  position:relative;
+  right: 10px;
+  top:50px;
+}
+.bad
+{
+  position:relative;
+  left:100px;
+}
+.five
+{
+  width:100px;
+  height:120px;
+  background-color:#C2A375 ;
+  border:3px solid #C2A375;
+  border-radius:10px;
+  position:relative;
+  left:50px;
+}
+.four
+{
+  width:100px;
+  height:120px;
+  background-color:#8E5EC3;
+  border:3px solid #8E5EC3;
+  border-radius:10px;
+  position:relative;
+  left:50px;
+}
+.head
+{
+  margin:0;
+  padding-top:10px;
+  padding-bottom:10px;
+  text-align:center;
+  background-color:#c48647;
+  color:white;
+}
+
